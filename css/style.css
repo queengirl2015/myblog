@@ -1182,6 +1182,7 @@ a.article-title:hover {
   clear: both;
 }
 .article-share-twitter,
+.article-share-weibo,
 .article-share-facebook,
 .article-share-pinterest,
 .article-share-google {
@@ -1194,6 +1195,7 @@ a.article-title:hover {
   text-shadow: 0 1px #fff;
 }
 .article-share-twitter:before,
+.article-share-weibo:before,
 .article-share-facebook:before,
 .article-share-pinterest:before,
 .article-share-google:before {
@@ -1208,12 +1210,17 @@ a.article-title:hover {
   text-align: center;
 }
 .article-share-twitter:hover,
+.article-share-weibo:hover,
 .article-share-facebook:hover,
 .article-share-pinterest:hover,
 .article-share-google:hover {
   color: #fff;
 }
 .article-share-twitter:hover {
+  background: #00aced;
+  text-shadow: 0 1px #008abe;
+}
+.article-share-weibo:hover {
   background: #00aced;
   text-shadow: 0 1px #008abe;
 }
